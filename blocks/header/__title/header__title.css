@@ -1,0 +1,7 @@
+.header__title {
+	margin-bottom: 60px;
+	text-transform: uppercase;
+	color: #fff;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
