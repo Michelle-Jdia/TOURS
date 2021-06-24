@@ -1,0 +1,22 @@
+{
+  "name": "tours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/index.scss pages/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michelle-Jdia/TOURS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michelle-Jdia/TOURS/issues"
+  },
+  "homepage": "https://github.com/Michelle-Jdia/TOURS#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
