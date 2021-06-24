@@ -1,10 +1,16 @@
-@import "./blocks/body/body.scss";
+// abstracts
+@import "abstracts/abstracts";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+// base
+@import "base/base";
+@import "base/animations";
+@import "base/utilities";
+@import "base/typography";
+// pages
+@import "pages/home";
 
-/* header */
-@import "./blocks/header/header.scss";
+@import "components/btn";
 
-/* heading primary */
-@import "./blocks/heading-primary/heading-primary.scss";
-
-/* btn */
-@import "./blocks/btn/btn.scss";
+@import "layout/header";
